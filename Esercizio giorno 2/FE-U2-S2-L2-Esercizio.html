@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <title>Viaggi Elite</title>
+</head>
+<body class="bg-light">
+    <header class="container bg-warning-subtle sticky-sm-top border-bottom border-warning bg-opacity-50">
+        <nav class="container row navbar">
+            <div class="container-fluid">
+                <a class="col-* navbar-brand d-flex align-items-center" href="#">
+                    <img src="assets/img/Opera_senza_titolo (1).png " alt="Logo" height="70" class="d-inline-block align-text-top me-2">
+                    <span class="d-inline-block align-middle display-6 fw-semibold text-warning">Viaggi Elite</span>
+                </a>
+                <button class="col-* navbar-toggler border-warning text-warning" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end bg-warning-subtle border-start border-warning border-5" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <div class="offcanvas-title" id="offcanvasNavbarLabel">
+                            <img src="assets/img/Opera_senza_titolo (1).png" alt="Logo" height="60" class="d-inline-block align-text-top">
+                        </div>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active text-warning fw-bold" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-warning fw-semibold" href="#">Saldi</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-warning fw-semibold" href="#">Welcome Summer</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-warning fw-semibold" href="#">Last Minutes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-warning fw-semibold" href="#">Recensioni</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+        <!--Sezione presentazione-->
+        <div class="container mt-5 mb-5">
+            <div class="container-sm bg-warning-subtle rounded-5 border border-warning border-2 p-3 pb-5 text-center align-items-center">
+                <div class="container border-bottom border-warning pb-3 mb-3">
+                    <div class="container">
+                        <img src="assets/img/Opera_senza_titolo (1).png" alt="Logo" height="60" class="d-block-inline">
+                    </div>
+                    <h1 class="text-warning d-block fw-bold">Viaggi Elite</h1>
+                    <span class="fs-6 text-warning fw-semibold" >Un viaggio, mille emozioni</span>
+                </div>
+                <p class="fst-italic text-primary">Scopri le destinazioni più esclusive!</p>
+                <button type="button" class="btn bg-primary rounded-5 border border-primary-subtle border-4 text-light fw-semibold">Prenota Ora</button>
+            </div>
+        </div>
+
+        
+
+
+    </main>
+    <footer></footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
+
+    <!-- Abbiamo bisogno di un sito web per un'agenzia di viaggi!
+
+In questa pagina aggiungerai destinazioni di posti che sogni di visitare in futuro.
+
+Il progetto non richiede alcuna customizzazione di CSS, dovrai crearlo interamente usando le classi di bootstrap, sia per quello che riguarda il layout che lo stile.
+
+
+Testa frequentemente il tuo lavoro nelle 3 principali risoluzioni (mobile, tablet, desktop) usando i developer tools del browser nella sezione emulazione device, per una maggiore precisione.
+
+Inizia utilizzando i componenti esistenti di Bootstrap 5 per creare la tua pagina (modificali all'occorrenza utilizzando le utility classes di bootstrap: colori, spazi, margini, dimensioni etc...)
+Usa container > row > col-* in questo ordine per ottenere un layout responsive perfetto.
+
+Esercizi:
+
+1) Implementa una navbar con questi elementi di menu:
+Home
+Saldi
+Welcome Summer
+Last Minute
+Recensioni
+
+Collegherai ogni sezione della pagina agli elementi del menu corrispondenti. 
+
+2) Aggiungi un logo alla navbar, un qualsiasi logo di agenzia di viaggi, anche inventata.
+
+3) Aggiungi una sezione introduttiva con il nome, il payoff dell'agenzia, 
+una breve descrizione in corsivo e una call-to-action (bottone) "Prenota ora" di colore azzurro chiaro e testo bianco e grassetto
+
+Il background della sezione sarà grigio chiaro e con bordi arrotondati e del padding generoso all'interno
+
+4) Implementa la sezione "Saldi". Qui mostrerai 4 destinazioni.
+
+In questa sezione dovranno esserci:
+
+4 card per destinazioni per linea a schermo grande - desktop (quattro sulla stessa linea)
+3 card per destinazioni per linea a schermo medio  - tablet  (una dovrà scomparire)
+2 card per destinazioni per linea a schermo piccolo - mobile (due per linea)
+
+le card avranno un bordo di 2px azzurro chiaro, il bottone azzurro chiaro e testo default
+
+5) Implementa la sezione "Welcome Summer". Qui mostrerai 6 destinazioni al tuo utente. (nessun bordo, ma stesso stile dei bottoni precedenti)
+
+In questa sezione dovranno esserci:
+
+6 card per destinazioni per linea a schermo extra large
+3 card per destinazioni per linea a schermo grande (desktop)
+2 card per destinazioni per linea a schermo medio (tablet)
+2 card per destinazioni per linea a schermo piccolo (mobile)
+
+6) Implementa la sezione "Offerta del giorno". Qui avrai:
+
+66% dello spazio dedicato all'immagine del luogo di destinazione
+33% dedicato al nome, date, prezzo e un badge con "best offer" come testo
+
+l'immagine avrà i bordi arrotondati e un'ombra leggera
+per il contenuto: il nome dovrà essere più grande del resto,
+le date dovranno essere formattate con font "monospace",
+il prezzo dovrà essere definito come "lead"
+e il badge sarà scuro
+
+
+7) Rendi invisibile la sezione "Offerta del giorno" su schermi piccoli.
+
+8) Aggiungi nella sezione "Welcome Summer" un'ombra grande ad ogni card.
+
+9) Crea una sezione "Last Minute", in cui mostrerai 6 immagini delle destinazioni last minute come rettangoli ombreggiati dai bordi arrotondati, senza testo. Rendile responsive come preferisci!
+
+10) Crea una sezione "Recensioni", dove l'utente potrà trovare alcuni feedback da utenti fittizi. 
+Piccola immagine tonda a sinistra con bordo 2px azzurro, nome utente e recensione a destra
+
+11) Crea un footer con le informazioni dell'agenzia e un bottone "Contattaci".
+
+
+
+EXTRAS
+
+12) Crea un bottone vicino ad ogni sezione per collassarla e riaprirla se premuto.
+
+13) Crea la possibilità di contare il numero di "viaggi" presenti sulla pagina e visualizzare il risultato in un alert.
+
+14) Crea un modale con un campo email e un messaggio.
+
+15) Quando l'utente cliccherà su "Contattaci", il modale dovrà essere visualizzato.
+
+16) Crea una funzione che aggiunga un badge con la scritta "HOT" su ognuna delle offerte "Welcome Summer" posizionato in alto a destra.
+
+17) Crea una funzione che rimuova tutte le "card" dalla pagina
+
+-->
+
+</html>
